@@ -5,7 +5,7 @@ após uma atividade no fluxo.
 Ele pode estar localizado logo após uma atividade de usuário ou até mesmo antes de uma atividade.
  Vejamos um exemplo abaixo:
 
-![Screenshot](imgs/AdapterInterfaceFluxo.png)
+![Screenshot](imgs/adapterInterfaceFluxo.png)
 
 O AdapterInterface possui várias funções, na verdade podemos fazer qualquer coisa com ele. Temos alguns exemplos:
    
