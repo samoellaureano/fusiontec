@@ -58,10 +58,6 @@ const config = {
     ({
       navbar: {
         title: 'Fusion Docs',
-        logo: {
-          alt: 'Fusion Docs Logo',
-          src: 'img/fusionPlatform.svg',
-        },
         items: [
           {
             type: 'doc',
