@@ -28,7 +28,7 @@ O Checkpoint faz parte da modelagem de um processo. Para implementar um checkpoi
 
 *Subprocesso que será executado pelo checkpoint.*
 
-- Criar um campo no formulário do processo principal de tipo E-form que referencie o formulário principal do nosso subprocesso. Chamaremos esse campo de **Lista de Entidades**
+- Criar um campo no formulário do processo principal de tipo E-form que referencie o formulário principal do nosso subprocesso. Chamaremos esse campo de **Lista de Entidades**.
 
 ![alt text](./imgs/criacao-campo-sub-no-principal.png "criação do form")
 
@@ -36,7 +36,7 @@ O Checkpoint faz parte da modelagem de um processo. Para implementar um checkpoi
 
 ## 2. Parâmetros do Adapter
 
-Os parâmetros são os mesmos utilizados no [Adapter Interface][1].
+Os parâmetros são os mesmos utilizados no [Adapter Interface].
 
 ## 3. Implementação simples
 
