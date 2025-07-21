@@ -1,8 +1,16 @@
 {
   "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ],
+  "headers": [
     {
       "source": "/(.*)",
-      "destination": "/api/_middleware.js"
+      "headers": [
+        {
+          "key": "WWW-Authenticate",
+          "value": "Basic realm=\"Secure Area\""
+        }
+      ]
     }
   ]
 }
