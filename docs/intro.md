@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introdução
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bem-vindo à **Documentação Técnica do Fusion** 🚀  
 
-## Getting Started
+Este site foi criado com o objetivo de **centralizar e compartilhar o conhecimento técnico necessário para o desenvolvimento e customização dentro da plataforma Fusion**.
 
-Get started by **creating a new site**.
+Aqui você encontrará:  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+✅ **Guias detalhados** para a criação e configuração de ambientes de desenvolvimento;  
+✅ **Documentação de Adapters** com exemplos de uso e melhores práticas;  
+✅ **Exemplos de código** prontos para acelerar o desenvolvimento;  
+✅ Tutoriais sobre **gatilhos**, **jobs** e **integrações REST**;  
+✅ Padrões técnicos e recomendações para garantir qualidade e consistência no código.
 
-### What you'll need
+---
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 📦 Público-alvo
 
-## Generate a new site
+Esta documentação é voltada para:  
 
-Generate a new Docusaurus site using the **classic template**.
+- Desenvolvedores Fusion que atuam com customizações;  
+- Equipes de suporte técnico que precisam entender processos internos;  
+- Novos membros que precisam aprender rapidamente sobre o ambiente Fusion.  
 
-The classic template will automatically be added to your project after you run the command:
+---
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## 🚀 O que você vai aprender?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Como **criar e configurar ambientes Fusion** do zero;
+- Estruturar **Adapters customizados** com exemplos reais de projetos;
+- Aplicar **boas práticas de desenvolvimento** dentro do Fusion;
+- E muito mais!  
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
+## 🛠️ Comece agora
 
-Run the development server:
+Navegue pelo menu lateral para acessar os tutoriais e materiais técnicos.  
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> A documentação está em constante evolução. Contribuições são bem-vindas! 🎯
