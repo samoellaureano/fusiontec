@@ -60,7 +60,7 @@ const config = {
         title: 'Fusion Docs',
         logo: {
           alt: 'Fusion Docs Logo',
-          src: 'img/logo.svg',
+          src: 'img/fusionPlatform.svg',
         },
         items: [
           {
