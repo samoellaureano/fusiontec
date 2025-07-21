@@ -31,7 +31,7 @@ ao clicar no **ok** do formulário será executado o adapter de customização a
 
 ### 2.2. Em uma atividade de um processo;
 
-Ao acessar as atividades em **Processo - Central de Tarefas** terá acesso as atividades do fusion.
+Ao acessar as atividades em **Processo - Central de Tarefas** terá acesso às atividades do fusion.
 
 ![alt text](./imgs/task-central.png "Central de tarefas do Fusion")
 
