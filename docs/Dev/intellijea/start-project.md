@@ -3,7 +3,7 @@
 Aqui você vai encontrar uma passo a passo de como configurar seu ambiente Intellij do zero. Caso tenha dúvidas no meio do caminho, consulte a seção de [Dúvidas Frequentes](duvidas.md)
 
 !!! info
-    O passo a passo deste manual foi obtido da documentação da equipe de [Inovação](/docs/development/eclipse/eclipse/) e adaptado para a realidade de Serviços. 
+    O passo a passo deste manual foi obtido da documentação da equipe de Inovação e adaptado para a realidade de Serviços. 
     
 # Instalações
 

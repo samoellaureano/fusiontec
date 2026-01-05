@@ -1,6 +1,6 @@
 # Adapter de Interface
 
-Os [adapters de interface](../../Adapters/CustomAdapterInterface/UnderstandingAbout.md) são inseridos nos campos de adapters das atividades de *Script* em modelagens de
+Os [adapters de interface](/docs/Adapters/CustomAdapterInterface/UnderstandingAbout) são inseridos nos campos de adapters das atividades de *Script* em modelagens de
 processos, a maioria das customizações são feitas por adapters de interface, sendo assim, essa funcionalidade será priorizada no treinamento.
 
 ![Exemplo de adapter de script em modelagem de processos](imgs/Adapterinterface/adapter-script.png "Exemplo de adapter de script em modelagem de processos")
@@ -55,7 +55,7 @@ Agora dentro deste pacote criaremos nossa classe.
 *Classe AcrescentaCusto criada.*
 
 A seguir, precisamos implementar uma interface do Fusion na nossa classe. Essa interface se
-chama [AdapterInterface](../../Adapters/CustomAdapterInterface/UnderstandingAbout.md), e obriga a nossa classe a utilizar 2 métodos, *start* e *back*.
+chama [AdapterInterface](/docs/Adapters/CustomAdapterInterface/UnderstandingAbout), e obriga a nossa classe a utilizar 2 métodos, *start* e *back*.
 
 ![Classe AcrescentaCusto implementando AdapterInterface](imgs/Adapterinterface/acrescenta-custo2.png "Classe AcrescentaCusto implementando AdapterInterface")
 

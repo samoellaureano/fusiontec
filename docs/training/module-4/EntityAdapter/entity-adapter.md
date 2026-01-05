@@ -18,7 +18,7 @@ Nesse caso, o *Adapter* é executado antes de persistir os dados do formulário 
 
 ## 2. Onde configurar um EntityAdapter
 
-Os [Adapters de Formulário](../../../adapters\entity-adapter\understanding-about.md) são inseridos dentro dos próprios formulários, em seu momento de criação ou edição, na aba *Geral* e campo **Adapter de customização**. Neste campo é inserido o caminho de uma Classe Java 
+Os [Adapters de Formulário](/docs/Adapters/EntityAdapter/UnderstandingAbout) são inseridos dentro dos próprios formulários, em seu momento de criação ou edição, na aba *Geral* e campo **Adapter de customização**. Neste campo é inserido o caminho de uma Classe Java 
 
 ![Local onde deve ser inserido o Adapter de Formulário](./imgs/EntityAdapter.png "Local onde deve ser inserido o Adapter de Formulário")
 *Local onde deve ser inserido o Adapter de Formulário.*
