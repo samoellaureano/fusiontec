@@ -5,7 +5,7 @@ o que ela fará e tambem adicionar Adapter no nome da classe afins de padroniza�
 
 Validar documentos ficaria: ValidarDocumentosAdapter
 
-Agora será necessario implementar a interface com a tag implements logo após o nome da classe:
+Agora será necessário implementar a interface com a tag implements logo após o nome da classe:
 
 ```java
 package com.neomind.fusion.workflow.adapter;

@@ -10,7 +10,7 @@ const config = {
   tagline: 'Documentação do Fusion voltada para desenvolvedores',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

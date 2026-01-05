@@ -1,0 +1,14 @@
+[data-md-color-primary=blue] .md-header,[data-md-color-primary=blue] .md-hero {
+    background-color:rgb(90, 98, 115);
+}
+[data-md-color-primary=blue] .md-tabs {
+    background-color:rgb(90, 98, 115);
+}
+@media only screen and (max-width: 76.1875em) {
+    html [data-md-color-primary=blue] .md-nav--primary .md-nav__title--site {
+        background-color:rgb(90, 98, 115);
+    }
+}
+.md-typeset img {
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+}
