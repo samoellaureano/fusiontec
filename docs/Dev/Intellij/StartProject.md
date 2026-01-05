@@ -1,7 +1,7 @@
 # 8. Como montar meu ambiente IntelliJ do zero
 
 Aqui você vai encontrar um passo a passo de como configurar seu ambiente IntelliJ do zero.  
-Caso tenha dúvidas no meio do caminho, consulte a seção de [Dúvidas Frequentes](duvidas.md)
+Caso tenha dúvidas no meio do caminho, consulte a seção de [Dúvidas Frequentes](Duvidas.md)
 
 ℹ️ **Informação:**
 O passo a passo deste manual foi obtido da documentação da equipe de [Inovação](https://docs.pages.neomind.com.br/dev/development/eclipse/eclipse/) e adaptado para a realidade de Serviços.
@@ -54,12 +54,12 @@ Faça download da IDE e a inicie.
 
 Ao abrir o IntelliJ pela primeira vez, selecione **Open** na tela inicial.
 
-![first-time](images/openProject/first-screen-intellij.png)
+![first-time](images/Openproject/first-screen-intellij.png)
 
 Navegue até a pasta do seu ambiente de treinamento.  
 Dentro da pasta principal que contém o *pom* (no nosso exemplo: pasta *fusion*), selecione-a (**a cor do pom deve diferir, caso contrário revise o caminho**).
 
-![first-open-project](images/openProject/open-first-project-paste.png)
+![first-open-project](images/Openproject/open-first-project-paste.png)
 
 Clique em **Ok**.
 
@@ -70,19 +70,19 @@ Clique em **Ok**.
 Localize o arquivo:  
 `src > main > resources > META-INF > neo-persist.xml`
 
-![directory-paste-to-neopersist](images/openProject/neopersist-confirm-config.png)
+![directory-paste-to-neopersist](images/Openproject/neopersist-confirm-config.png)
 
 Ajuste:
 
 - **Banco de dados:** Configure **username** como `sa` e a senha criada.
 - **databaseName:** Informe exatamente o nome do banco criado.
 
-![client-bda](images/git-config/bda-client.png)
+![client-bda](images/GitConfig/bda-client.png)
 
 - **Storage:** Configure o caminho da pasta storage.  
   Caso não exista, crie a pasta.
 
-![client-storage](images/git-config/storage-client.png)
+![client-storage](images/GitConfig/storage-client.png)
 
 Salve o arquivo.
 
@@ -95,11 +95,11 @@ Confirmar as configurações da neo-persist é de extrema importância!!
 
 Acesse **File > Project Structure**:
 
-![img-structure](images/git-config/project-structure.png)
+![img-structure](images/GitConfig/project-structure.png)
 
 Na aba **Project**, verifique se o SDK do Java está configurado. Caso não esteja, adicione-o.
 
-![img-sdk](images/git-config/java-sdk-project-structure.png)
+![img-sdk](images/GitConfig/java-sdk-project-structure.png)
 
 ℹ️ **Informação:**
 Geralmente o IntelliJ reconhece automaticamente, mas pode falhar em alguns casos.
@@ -108,13 +108,13 @@ Geralmente o IntelliJ reconhece automaticamente, mas pode falhar em alguns casos
 
 ## 3️⃣ Build Maven
 
-Para fazer a build do Maven, acesse: [Build Maven](build-project-maven.md)
+Para fazer a build do Maven, acesse: [Build Maven](BuildProjectMaven.md)
 
 ---
 
 ## 4️⃣ Configurando servidor Tomcat
 
-Para configurar o Tomcat no IntelliJ, acesse: [Configurando o Tomcat](config-tomcat-server.md)
+Para configurar o Tomcat no IntelliJ, acesse: [Configurando o Tomcat](ConfigTomcatServer.md)
 
 ---
 
@@ -122,7 +122,7 @@ Para configurar o Tomcat no IntelliJ, acesse: [Configurando o Tomcat](config-tom
 
 Sempre rode o projeto em **modo Debug**, clicando no ícone da baratinha:
 
-![img-debbug](images/config-tomcat/debuuger.png)
+![img-debbug](images/ConfigTomcat/debuuger.png)
 
 ℹ️ **Informação:**
 Caso não rode em modo Debug, o projeto funcionará normalmente, mas breakpoints não serão aplicáveis durante a execução.

@@ -10,7 +10,7 @@ campo.
 
 ### 2. Implementação
 
-![Setar um novo valor](imgs/findField-setValue/set-new-value.png "Setar um novo valor")
+![Setar um novo valor](imgs/FindfieldSetvalue/set-new-value.png "Setar um novo valor")
 
 *Setar um novo valor.*
 
@@ -27,7 +27,7 @@ Agora voltando ao objetivo original, vamos acrescentar 10% ao valor da despesa. 
 operações com operadores comuns do java, sendo nescessários os métodos da classe BigDecimal, para acessar a documentação da classe BigDecimal
 clique [aqui](https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html)
 
-![Incrementar 10%](imgs/findField-setValue/add-to-value1.png "Incrementar 10%")
+![Incrementar 10%](imgs/FindfieldSetvalue/add-to-value1.png "Incrementar 10%")
 
 *Incrementar 10%.*
 
@@ -39,10 +39,10 @@ Repare que:
 
 Ao executar o processo obtemos o seguinte resultado:
 
-![Processo iniciado pelo funcionário](imgs/findField-setValue/final-process1.png "Processo iniciado pelo funcionário")
+![Processo iniciado pelo funcionário](imgs/FindfieldSetvalue/final-process1.png "Processo iniciado pelo funcionário")
 
 *Processo iniciado pelo funcionário.*
 
-![Atividade recebida pelo gestor](imgs/findField-setValue/final-process2.png "Atividade recebida pelo gestor")
+![Atividade recebida pelo gestor](imgs/FindfieldSetvalue/final-process2.png "Atividade recebida pelo gestor")
 
 *Atividade recebida pelo gestor.*

@@ -14,7 +14,7 @@ Não é recomendado alocar mais de **2/3 da memória RAM total** do seu computad
 2. Clique em **Change Memory Settings**.
 3. Ajuste o valor conforme necessário.
 
-![img-memory-help-settings](images/config-tomcat/memoria-settings.png)
+![img-memory-help-settings](images/ConfigTomcat/memoria-settings.png)
 
 ---
 
@@ -22,7 +22,7 @@ Não é recomendado alocar mais de **2/3 da memória RAM total** do seu computad
 
 Recomendamos definir o valor **máximo de 4096 MB (4 GB)**, para equilibrar o desempenho do IntelliJ sem comprometer o restante da máquina.
 
-![img-memory-set-settings-4096](images/config-tomcat/memory-set.png)
+![img-memory-set-settings-4096](images/ConfigTomcat/memory-set.png)
 
 ---
 

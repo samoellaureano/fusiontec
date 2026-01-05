@@ -1,10 +1,10 @@
 ### 1. FindGenericValue()
 
-Um objeto [EntityWrapper](Entity-wrapper.md) possui o método *findGenericValue* que recebe o código de um campo do formulário como parâmetro e retorna o valor
+Um objeto [EntityWrapper](EntityWrapper.md) possui o método *findGenericValue* que recebe o código de um campo do formulário como parâmetro e retorna o valor
 armazenado nesse campo.
 Assinatura do método é:
 
-![Assinatura do método findGenericValue()](imgs/findGenericValue/method-signature.png "Assinatura do método findGenericValue()")
+![Assinatura do método findGenericValue()](imgs/Findgenericvalue/method-signature.png "Assinatura do método findGenericValue()")
 
 *Assinatura do método findGenericValue().*
 
@@ -16,25 +16,25 @@ perceba que o findGenericValue:
 
 Para visualizar o funcionamento do *findGenericValue()* vamos voltar a nossa classe. Podemos trazer os valores do processo para dentro do nosso código.
 
-![Trazendo valor para o código](imgs/findGenericValue/print-valor.png "Trazendo valor para o código")
+![Trazendo valor para o código](imgs/Findgenericvalue/print-valor.png "Trazendo valor para o código")
 
 *Trazendo valor para o código.*
 
 Executando o processo:
 
-![Funcionário preenche dados](imgs/findGenericValue/process1.png "Funcionário preenche dados")
+![Funcionário preenche dados](imgs/Findgenericvalue/process1.png "Funcionário preenche dados")
 
 *Funcionário preenche dados.*
 
 Como o fluxo do processo ainda não chegou no adapter, só será printado o valor no console quando o funcionário enviar a atividade.
 
-![Fluxo do processo](imgs/findGenericValue/process-workflow1.png "Fluxo do processo")
+![Fluxo do processo](imgs/Findgenericvalue/process-workflow1.png "Fluxo do processo")
 
 *Fluxo do processo.*
 
 Após enviar:
 
-![Print do valor no console](imgs/findGenericValue/printed-value.png "Print do valor no console")
+![Print do valor no console](imgs/Findgenericvalue/printed-value.png "Print do valor no console")
 
 *Print do valor no console.*
 

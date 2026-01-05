@@ -47,12 +47,12 @@ Clique em **OK**.
 
 Clique com o botão direito no usuário conectado e selecione **Propriedades**:
 
-![img](IMG/failed-login-sa/properties-windows-sql-microsfoft.png)
+![img](IMG/FailedLoginSa/properties-windows-sql-microsfoft.png)
 
 No menu aberto, vá em **Segurança** e localize **Autenticação do servidor**.  
 Mude de **Modo de autenticação do Windows** para **Modo de autenticação do SQL Server e do Windows**.
 
-![img](IMG/failed-login-sa/secutiry-windows-properties.png)
+![img](IMG/FailedLoginSa/secutiry-windows-properties.png)
 
 Clique em **OK**.
 
@@ -65,7 +65,7 @@ A partir de agora, todas as conexões deverão ser feitas com este usuário.
 
 1. Desconecte da sessão atual (usuário Windows) clicando no ícone de cabo com um *x*:
 
-![img](IMG/failed-login-sa/disconnect-before-login.png)
+![img](IMG/FailedLoginSa/disconnect-before-login.png)
 
 2. Configure o login:
 
@@ -80,4 +80,4 @@ Clique em **Conectar**.
 ---
 
 Após estas etapas, seu ambiente SQL Server estará pronto para criação de bancos de dados.  
-Para saber [como criar um banco de dados](create-bda.md) siga o guia indicado.
+Para saber [como criar um banco de dados](CreateBda.md) siga o guia indicado.

@@ -25,7 +25,7 @@ Ao acessar os formulários em **Formulários - Navegar** terá acesso aos dados 
 Toda vez que clicar em **ok** ou **aplicar** em um formulário que possua um *Entity Adapter* configurado nele, seja ao criar um novo registro ou editando registros já existentes,
 ao clicar no **ok** do formulário será executado o adapter de customização antes de persistir as informações no banco de dados.
 
-![alt text](./imgs/form-ok_apply.png "Formulário - Botões de ok / aplicar")
+![alt text](./imgs/form-ok_apply.png "Formulário - Botões de ok /Aplicar")
 
 *Retângulo em vermelho identificando os botões de **ok** e de **aplicar** em um formulário.*
 

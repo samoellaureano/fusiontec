@@ -176,8 +176,8 @@ public class RetornaNegociacaoAdapter implements AdapterInterface
 
 		if (ctrlNeg == null || codFilial == null || codVendedor == null)
 		{
-			String msg = "Erro ao executar adapter " + className + ".\nCódigo da Filial" + " (<b>codfilial</b>), Controle da Negociação (<b>ctrlneg</b>) ou"
-				+ " Código do Vendedor (<b>codvendedor</b>) esta(ão) vazio(s)." + "\nFavor entrar em contato com o Administrador do Processo.";
+			String msg = "Erro ao executar adapter " + className + "./nCódigo da Filial" + " (<b>codfilial</b>), Controle da Negociação (<b>ctrlneg</b>) ou"
+				+ " Código do Vendedor (<b>codvendedor</b>) esta(ão) vazio(s)." + "/nFavor entrar em contato com o Administrador do Processo.";
 			log.error(msg);
 			throw new WorkflowException(msg);
 		}

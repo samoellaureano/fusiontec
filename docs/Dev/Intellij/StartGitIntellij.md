@@ -16,7 +16,7 @@ Essa é a opção que você deve usar para acessar a página principal do client
 
 Antes de iniciar a clonagem, por organização, caso você não tenha a estrutura de pasta **Clientes**, recomendo criar uma pasta no seu disco principal, dentro dela ficará uma pasta destinada a cada cliente.
 
-![pasta-clients](images/git-config/pasta-clients.png)
+![pasta-clients](images/GitConfig/pasta-clients.png)
 
 ℹ️ **Informação:** 
 **Não é obrigatório seguir essa estrutura, mas ajuda na organização!**
@@ -27,7 +27,7 @@ Antes de iniciar a clonagem, por organização, caso você não tenha a estrutur
     - fusion
     - storage
     
-    ![create-paste](images/git-config/create-paste.png)
+    ![create-paste](images/GitConfig/create-paste.png)
 
 ---
 
@@ -35,7 +35,7 @@ Antes de iniciar a clonagem, por organização, caso você não tenha a estrutur
 
 Após encontrar o projeto no Git e selecionar a branch que deseja clonar, clique no botão **Clone**. Copie a opção **Clone with HTTPS**, que será usada para clonar no seu ambiente local.
 
-![git-clone](images/git-config/git-copy.png)
+![git-clone](images/GitConfig/git-copy.png)
 
 ---
 
@@ -46,7 +46,7 @@ Para clonar via Git Bash:
 1. Acesse a pasta **Clientes** e entre na pasta do cliente (ex: SEBRAE).
 2. Clique com o botão direito na pasta **fusion** → **Git Bash Here**.
 
-![img-git-bash-here](images/git-config/git-bash-here.png)
+![img-git-bash-here](images/GitConfig/git-bash-here.png)
 
 ⚠️ **Atenção:** 
 **Se não aparecer, verifique se o Git Bash está instalado.**
@@ -61,7 +61,7 @@ git clone 'linkHTTPS-clone-git'
 
 4. Aperte **ENTER** e aguarde o término do clone.
 
-![git-bash](images/git-config/git-clone-git-bash.png)
+![git-bash](images/GitConfig/git-clone-git-bash.png)
 
 ---
 
@@ -71,13 +71,13 @@ git clone 'linkHTTPS-clone-git'
 
 Você pode clonar diretamente pelo IntelliJ usando a opção **Open VCS**:
 
-![git-vcs-1](images/git-config/get-vcs-git-1.png)
+![git-vcs-1](images/GitConfig/get-vcs-git-1.png)
 
 Feche o projeto atual e abra a tela inicial do IntelliJ. Clique em **Get from VCS** para abrir o menu.
 
 ### 2.2 Segunda forma
 
-![git-vcs-2](images/git-config/get-vcs-git-2.png)
+![git-vcs-2](images/GitConfig/get-vcs-git-2.png)
 
 Sem fechar o projeto, vá na aba **VCS** → **Get from Version Control**.
 
@@ -89,7 +89,7 @@ Sem fechar o projeto, vá na aba **VCS** → **Get from Version Control**.
 2. Cole o link HTTPS no campo **URL**.
 3. Selecione a pasta `Clientes/nomeCliente/fusion` em **Directory**.
 
-![git-vcs-menu](images/git-config/version-control-git-menu.png)
+![git-vcs-menu](images/GitConfig/version-control-git-menu.png)
 
 ---
 
@@ -97,15 +97,15 @@ Sem fechar o projeto, vá na aba **VCS** → **Get from Version Control**.
 
 1. Abra o seletor de branch no canto inferior direito.
 
-![git-branch](images/git-config/git-branch.png)
+![git-branch](images/GitConfig/git-branch.png)
 
 2. Selecione a branch desejada.
 
-![git-select-branch](images/git-config/select-branch-git.png)
+![git-select-branch](images/GitConfig/select-branch-git.png)
 
 3. Clique na branch → **Checkout**. O IntelliJ atualizará os arquivos locais.
 
-![git-checkout](images/git-config/checkout-branch.png)
+![git-checkout](images/GitConfig/checkout-branch.png)
 
 ⚠️ **Atenção:** 
 Sempre faça checkout antes de modificar arquivos!
@@ -122,8 +122,8 @@ Caminho: `src > main > resources > META-INF > neo-persist.xml`.
 - Ajuste a **conexão do banco de dados** para o seu banco local.
 - Configure o caminho da pasta **storage**.
 
-![client-bda](images/git-config/bda-client.png)  
-![client-storage](images/git-config/storage-client.png)
+![client-bda](images/GitConfig/bda-client.png)  
+![client-storage](images/GitConfig/storage-client.png)
 
 Salve o arquivo após as alterações.
 
@@ -131,13 +131,13 @@ Salve o arquivo após as alterações.
 
 ## 🏗️ 5️⃣ Build Maven
 
-Para fazer a build do Maven, acesse: [Build Maven](build-project-maven.md)
+Para fazer a build do Maven, acesse: [Build Maven](BuildProjectMaven.md)
 
 ---
 
 ## 🖥️ 6️⃣ Configurando Tomcat Server
 
-Para configurar o Tomcat, acesse: [Configurando o Tomcat](config-tomcat-server.md)
+Para configurar o Tomcat, acesse: [Configurando o Tomcat](ConfigTomcatServer.md)
 
 ---
 
@@ -145,7 +145,7 @@ Para configurar o Tomcat, acesse: [Configurando o Tomcat](config-tomcat-server.m
 
 Rode sempre em modo **Debug** clicando no ícone da baratinha:
 
-![img-debbug](images/config-tomcat/debuuger.png)
+![img-debbug](images/ConfigTomcat/debuuger.png)
 
 ℹ️ **Informação:**
 Sem o modo Debug, o projeto executará normalmente, mas breakpoints não funcionarão.
@@ -156,7 +156,7 @@ Sem o modo Debug, o projeto executará normalmente, mas breakpoints não funcion
 
 1. Clique no ícone de **Commit** (uma seta) próximo ao Tomcat.
 
-![img-find-commit](images/git-config/commit-intellij.png)
+![img-find-commit](images/GitConfig/commit-intellij.png)
 
 2. Selecione os arquivos modificados (NUNCA inclua o neo-persist).
 3. Descreva as alterações.
@@ -165,4 +165,4 @@ Sem o modo Debug, o projeto executará normalmente, mas breakpoints não funcion
 ⚠️ **Atenção:** 
 Verifique a branch antes de commitar e não inclua o neo-persist.
 
-![img-commit-describe-push](images/git-config/commit-describecommit-commitandpush.png)
+![img-commit-describe-push](images/GitConfig/commit-describecommit-commitandpush.png)
