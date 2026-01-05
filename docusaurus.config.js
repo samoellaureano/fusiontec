@@ -45,6 +45,16 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['pt', 'en'], // Suporte para Português e Inglês
+        indexBaseUrl: true,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
