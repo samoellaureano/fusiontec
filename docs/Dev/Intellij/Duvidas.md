@@ -39,7 +39,7 @@ Termine a execução atual clicando no icone de **Stop tomcat**.
 Em seguida inicialize novamente, porém no modo debbug. Para subir o ambiente no modo debbug basta clicar no icone com a
 baratinha.
 
-![img-debbug](images/config-tomcat/debuuger.png)
+![img-debbug](images/ConfigTomcat/debuuger.png)
 
 ## 4. Não aparecem logs no terminal do Intellij, o que eu faço?
 
@@ -97,11 +97,11 @@ Para ver isto basta:
 
 Procurar pela aba **File** no Intellij e em seguida clique em **Project Structure**
 
-![img-structure](images/git-config/project-structure.png)
+![img-structure](images/GitConfig/project-structure.png)
 
 Vá até a aba **Project** e verifique se já tem um SDK do java que você instalou, caso não tenha, você terá que adicionar
 para funcionar.
 
-![img-sdk](images/git-config/java-sdk-project-structure.png)
+![img-sdk](images/GitConfig/java-sdk-project-structure.png)
 
 E tente novamente.

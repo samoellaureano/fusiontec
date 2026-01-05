@@ -2,44 +2,51 @@
 
 Através do EntityWrapper este adapter procura a lista de Anexos, e faz algumas validações:
 
-- Valida se a lista está vazia ou `null`
-- Verifica se na lista possui alguma documento com o tipo de codigo 1.
+- Valida se a lista esta vazia ou `null`
+- Verifica se na lista possui algum documento com o tipo de codigo 1.
 
 E se não possui uma nota fiscal ele não deixa a atividade avançar.
 
 ```java
-public class ValidaArquivoAnexo implements AdapterInterface {
+public class ValidaArquivoAnexo implements AdapterInterface
+{
 
 	@Override
-	public void back(EntityWrapper wrapper, Activity activity) {
+	public void back(EntityWrapper wrapper, Activity activity)
+	{
 	}
 
 	@Override
-	public void start(Task task, EntityWrapper processEntity, Activity activity) {
-	
-		List\<NeoObject\> listaAnexos = processEntity.findGenericValue("docsAnexos");
+	public void start(Task task, EntityWrapper processEntity, Activity activity)
+	{
+
+		List<NeoObject> listaAnexos = processEntity.findGenericValue("docsAnexos");
 		boolean semNota = true;
 		boolean necesarioDoc = true;
-		
-		if (NeoUtils.safeIsNull(listaAnexos) || listaAnexos.size() == 0) {
-			throw new WorkflowException("É necessário informar pelo menos uma nota fiscal para avançar!");
+
+		if (NeoUtils.safeIsNull(listaAnexos) || listaAnexos.size() == 0)
+		{
+			throw new WorkflowException("É necessario informar pelo menos uma nota fiscal para avançar!");
 		}
-		
-		for (NeoObject o : listaAnexos) {
-			
+
+		for (NeoObject o : listaAnexos)
+		{
+
 			EntityWrapper ewAnexo = new EntityWrapper(o);
 
 			//1 = NF (Nota Fiscal)
 			Long tipo = ewAnexo.findGenericValue("TipoDocumento.CodDocumento");
-			
-			if (tipo == 1L) {
+
+			if (tipo == 1L)
+			{
 				necesarioDoc = false;
 				semNota = false;
 			}
 		}
-		
-		if (semNota || necesarioDoc) {
-			throw new WorkflowException("É necessário informar pelo menos uma nota fiscal para avançar!");
+
+		if (semNota || necesarioDoc)
+		{
+			throw new WorkflowException("É necessario informar pelo menos uma nota fiscal para avançar!");
 		}
 	}
 }
@@ -56,10 +63,10 @@ public class AdapterIniciaExpedicao implements AdapterInterface
 	public void start(Task task, EntityWrapper wrapper, Activity activity)
 	{
 		wrapper.setValue("autorExped", PortalUtil.getCurrentUser());
-		
-		List\<NeoObject\> selecDestinatarios = wrapper.findGenericValue("selecDestinatarios");
 
-		List\<NeoObject\> listaDestinatarios = wrapper.findGenericValue("listaDestinatarios");
+		List<NeoObject> selecDestinatarios = wrapper.findGenericValue("selecDestinatarios");
+
+		List<NeoObject> listaDestinatarios = wrapper.findGenericValue("listaDestinatarios");
 
 		for (NeoObject uDestinatario : selecDestinatarios)
 		{
@@ -93,7 +100,7 @@ public class AdapterIniciaExpedicao implements AdapterInterface
 	@Override
 	public void back(EntityWrapper wrapper, Activity activity)
 	{
-		
+
 	}
 
 }
@@ -104,28 +111,31 @@ public class AdapterIniciaExpedicao implements AdapterInterface
 Este exemplo procura informações no formulário e anexa um arquivo no e-mail.
 
 ```java
-public class AdapterEnviaEmailComAnexos implements AdapterInterface {
+public class AdapterEnviaEmailComAnexos implements AdapterInterface
+{
 
 	@Override
-	public void start(Task task, EntityWrapper wrapper, Activity task) {
+	public void start(Task task, EntityWrapper wrapper, Activity task)
+	{
 
 		String title = Orcamento.ASSUNTO;
 		String texto = wrapper.findGenericValue("resposta");
-		
+
 		NeoUser solicitante = wrapper.findGenericValue("solicitante");
-		
+
 		List<NeoUser> listUsuarios = new ArrayList<NeoUser>();
 		listUsuarios.add(solicitante);
-		
+
 		String anexos = "anexos";
 		String anexo = "anexo";
-		
+
 		CustomSendMailUtils.SendMail(wrapper, listUsuarios, title, texto, anexos, anexo);
 	}
 
 	@Override
-	public void back(EntityWrapper wrapper, Activity task) {
-		
+	public void back(EntityWrapper wrapper, Activity task)
+	{
+
 	}
 
 }
@@ -136,7 +146,6 @@ public class AdapterEnviaEmailComAnexos implements AdapterInterface {
 Adapter que retorna o status de negociação (liberada ou recusada) passando retorno para uma procedure com as seguintes informações:
 
 RETORNO_WORKFLOW(COD_FILIAL, COD_VENDEDOR, CTRL_NEG, 'L' OU 'R')
-
 
 ```java
 /**
@@ -167,10 +176,8 @@ public class RetornaNegociacaoAdapter implements AdapterInterface
 
 		if (ctrlNeg == null || codFilial == null || codVendedor == null)
 		{
-			String msg = "Erro ao executar adapter " + className + ".\nCódigo da Filial"
-				+ " (<b>codfilial</b>), Controle da Negociação (<b>ctrlneg</b>) ou"
-				+ " Código do Vendedor (<b>codvendedor</b>) esta(ão) vazio(s)."
-				+ "\nFavor entrar em contato com o Administrador do Processo.";
+			String msg = "Erro ao executar adapter " + className + "./nCódigo da Filial" + " (<b>codfilial</b>), Controle da Negociação (<b>ctrlneg</b>) ou"
+				+ " Código do Vendedor (<b>codvendedor</b>) esta(ão) vazio(s)." + "/nFavor entrar em contato com o Administrador do Processo.";
 			log.error(msg);
 			throw new WorkflowException(msg);
 		}

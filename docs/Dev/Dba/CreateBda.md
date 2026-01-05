@@ -9,7 +9,7 @@ Após estarmos logados no SQL Server com o usuário **sa**, o processo de criaç
 Clique com o **botão direito do mouse** sobre a pasta **Banco de dados**  
 e selecione a opção **Novo banco de dados...**
 
-![img](IMG/failed-login-sa/new-database.png)
+![img](IMG/FailedLoginSa/new-database.png)
 
 ---
 
@@ -22,7 +22,7 @@ Na janela que abrir, basta informar um nome para o banco de dados.
 
 Defina então o nome do banco como `fusion`, conforme o padrão.
 
-![img](IMG/failed-login-sa/create-database-confirm.png)
+![img](IMG/FailedLoginSa/create-database-confirm.png)
 
 Clique em **OK** para concluir.
 

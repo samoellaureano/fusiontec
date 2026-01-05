@@ -15,10 +15,10 @@ documentação da classe **GregorianCalendar** clique [aqui](https://docs.oracle
 
 ### 2. Documentos de Apoio
 
-![Modelagem da Solicitação de Viagem.](imgs/exercicios/solicitacao-viagem-model.png "Modelagem da Solicitação de Viagem.")
+![Modelagem da Solicitação de Viagem.](imgs/Exercicios/solicitacao-viagem-model.png "Modelagem da Solicitação de Viagem.")
 
 *Modelagem da Solicitação de Viagem.*
 
-![Formulários da Solicitação de Viagem](imgs/exercicios/solicitacao-viagem-forms.png "Formulários da Solicitação de Viagem")
+![Formulários da Solicitação de Viagem](imgs/Exercicios/solicitacao-viagem-forms.png "Formulários da Solicitação de Viagem")
 
 *Formulários da Solicitação de Viagem.*

@@ -3,9 +3,9 @@
 
 Crie a seguinte estrutura de pastas:
 
-**C:\Clientes**
+**C:/Clientes**
 
-**C:\Clientes\ambiente_desenvolvimento**
+**C:/Clientes/ambiente_desenvolvimento**
 
 Caso não tenha uma pasta chamada Clientes, recomenda-se que você crie ela dentro da sua pasta principal de arquivos **(C:)**.
 
@@ -28,7 +28,7 @@ Para instalar o Git você pode fazer o download clicando [aqui](https://git-scm.
 
 Acesse o link a seguir para fazer o download da versão binary em formato zip da aplicação Maven: [clique aqui](https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip).
 
-Após o download, extraia o arquivo zipado dentro da pasta **C:\Arquivos de Programas**.
+Após o download, extraia o arquivo zipado dentro da pasta **C:/Arquivos de Programas**.
 
 ## 1.4 Java
 
@@ -42,7 +42,7 @@ Baixe o arquivo **LTS** na versão mais recente pelo [link](https://adoptopenjdk
 
 Após fazer o download, abra o instalador e siga os passos até finalizar a instalação.
 
-![java-download](images/download-archive/1-java.png)
+![java-download](images/DownloadArchive/1-java.png)
 
 ## 1.5 Tomcat
 
@@ -54,7 +54,7 @@ versão mais atualizada da aplicação.
 
 Ao acessar o link selecione em Core, a opção zip compatível com o seu sistema operacional.
 
-![tomcat-download](images/download-archive/download-tomcat.png)
+![tomcat-download](images/DownloadArchive/download-tomcat.png)
 
 Após fazer o download, extraia o conteúdo para a pasta **Arquivos de programa**.
 
@@ -62,16 +62,16 @@ Após fazer o download, extraia o conteúdo para a pasta **Arquivos de programa*
 
 No menu iniciar do seu computador digite **Variáveis de Ambiente** e acesse a opção **Editar as variáveis de ambiente do sistema**.
 
-![img](images/download-archive/editar-variaveis.png)
+![img](images/DownloadArchive/editar-variaveis.png)
 
 Uma tela de configuração das propriedades do sistema será aberta conforme a imagem abaixo, então
 clique em **Variaveis de Ambiente:**
 
-![img](images/git-config/variaveis%20de%20ambiente.png)
+![img](images/GitConfig/variaveis%20de%20ambiente.png)
 
 Após clicar, uma nova tela irá abrir onde você irá realizar as configurações de fato. Clique em **Novo**:
 
-![img](images/download-archive/nova-variaveis-ambiente.png)
+![img](images/DownloadArchive/nova-variaveis-ambiente.png)
 
 Então adicione as seguintes variáveis:
 
@@ -79,7 +79,7 @@ Nome da variável: *JAVA_HOME*
 
 Valor da variável: Localize o diretório onde está instalado o Java
 
-![img](images/download-archive/java_home.png)
+![img](images/DownloadArchive/java_home.png)
 
 ℹ️ **Informação:**  
 Lembre-se de colocar a pasta JDK da onde você instalou o Java
@@ -88,19 +88,19 @@ Nome da variável: *M2_HOME*
 
 Valor da variável: Localize o diretório onde está o arquivo do Maven.
 
-![img](images/download-archive/m2_home-maven.png)
+![img](images/DownloadArchive/m2_home-maven.png)
 
 Em seguida, clique sobre a variável Path para selecioná-la e clique em Editar:
 
-![img](images/download-archive/path-edit.png)
+![img](images/DownloadArchive/path-edit.png)
 
 Clique em Novo e adicione os seguintes valores:
 
-**%M2_HOME%\bin**
+**%M2_HOME%/bin**
 
-**%JAVA_HOME%\bin**
+**%JAVA_HOME%/bin**
 
-![img](images/download-archive/path-edit-add.png)
+![img](images/DownloadArchive/path-edit-add.png)
 
 Ao finalizar as configurações, clique em Ok nas telas que foram abertas para gravar as alterações
 realizadas.
@@ -134,7 +134,7 @@ Localize a tag **setting**, dentro dela deve haver uma tag **profiles** e então
 </profiles>
 ```
 
-![img](images/download-archive/settings-maven.png)
+![img](images/DownloadArchive/settings-maven.png)
 
 Salve e feche o arquivo.
 
@@ -142,11 +142,11 @@ Salve e feche o arquivo.
 
 Então, abra o terminal do Windows. Para isso basta acessar o Menu Inicial e digitar cmd ou prompt (**Execute como administrador o cmd**)
 
-![img](images/download-archive/prompt.png)
+![img](images/DownloadArchive/prompt.png)
 
 Em seguida **acesse a pasta pelo cmd** onde vai ser o nosso ambiente de desenvolvimento:
 
-    cd C:\Clientes\ambiente_desenvolvimento
+    cd C:/Clientes/ambiente_desenvolvimento
 
 Após isto, insira a seguinte linha de comando:
 
@@ -165,6 +165,6 @@ Note que o parâmetro **$CLIENTE** deve conter apenas caracteres alfanuméricos 
 
 Aperte **Enter**
 
-![img](images/download-archive/prompt-mvn.png)
+![img](images/DownloadArchive/prompt-mvn.png)
 
 Ao finalizar a execução do comando, uma pasta do **Fusion** terá sido criada contendo o projeto do Fusion para desenvolvimento.

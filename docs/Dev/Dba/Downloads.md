@@ -13,7 +13,7 @@ Para baixar o **Microsoft SQL Server**, acesse o link oficial abaixo:
 
 Na página de download, procure pela versão **Express** — ela é gratuita e suficiente para o ambiente de desenvolvimento.
 
-![img](IMG/download/express-sql-server-download.png)
+![img](IMG/Download/express-sql-server-download.png)
 
 Após o download, **siga a instalação padrão**, clicando em **“Próximo”** até a conclusão.
 
@@ -30,7 +30,7 @@ Em seguida, faça o download do **SQL Server Management Studio (SSMS)** — o am
 
 Na página, clique em **Free download** para iniciar o download.
 
-![img](IMG/download/downloads%20smss.png)
+![img](IMG/Download/downloads%20smss.png)
 
 Após o download, execute o instalador e **siga o processo padrão de instalação**.
 
@@ -39,4 +39,4 @@ Após o download, execute o instalador e **siga o processo padrão de instalaç�
 ---
 
 📘 **Próximo passo:**  
-[Configurando o Manager do SQL Server →](config-manager.md)
+[Configurando o Manager do SQL Server →](ConfigManager.md)
