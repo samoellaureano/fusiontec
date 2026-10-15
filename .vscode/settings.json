@@ -1,0 +1,13 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm run build": true,
+        "/^node \\.\\\\node_modules\\\\@docusaurus\\\\core\\\\bin\\\\docusaurus\\.mjs build$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node \\.\\\\node_modules\\\\@docusaurus\\\\core\\\\bin\\\\docusaurus\\.mjs start$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

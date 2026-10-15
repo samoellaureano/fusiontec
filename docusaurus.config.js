@@ -13,6 +13,12 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  scripts: [
+    {
+      src: 'https://chat.botplugin.com.br/widget.js?key=fusiondoc',
+      async: true,
+    },
+  ],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
