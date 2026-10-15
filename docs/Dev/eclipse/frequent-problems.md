@@ -3,7 +3,7 @@
 Em um primeiro contato com a IDE do Eclipse não sabemos todos os atalhos e como utilizar as ferramentas para resolver os problemas que enfrentamos, por esse motivo, listamos as dúvidas mais frequentes com relação à IDE.
 
 ## Qual a versão do Eclipse posso utilizar?
-Conforme a equipe de [Inovação](/docs/development/eclipse/eclipse/): Versões acima da 2018-12 (4.10.0) não estão funcionais por conta da modularização do Java e não devem ser utilizadas.
+Conforme a equipe de Inovação: Versões acima da 2018-12 (4.10.0) não estão funcionais por conta da modularização do Java e não devem ser utilizadas.
 
 
 ## Como criar um novo *server* Apache Tomcat?

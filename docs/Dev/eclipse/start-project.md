@@ -1,9 +1,9 @@
 #Como montar meu ambiente eclipse do zero
 
-Aqui você vai encontrar uma passo a passo de como configurar seu ambiente eclipse do zero. Caso tenha dúvidas no meio do caminho, consulte a seção de [Dúvidas frequentes](/docs/dev/eclipse/start-git-eclipse/).
+Aqui você vai encontrar uma passo a passo de como configurar seu ambiente eclipse do zero. Caso tenha dúvidas no meio do caminho, consulte a seção de [Dúvidas frequentes](./frequent-problems).
 
 !!! info
-    O passo a passo deste manual foi obtido da documentação da equipe de [Inovação](/docs/development/eclipse/eclipse/) e adaptado para a realidade de Serviços. 
+    O passo a passo deste manual foi obtido da documentação da equipe de Inovação e adaptado para a realidade de Serviços. 
     
 #Instalações
 
@@ -17,21 +17,21 @@ Será necessário instalar:
 6. Maven para desenvolvimento local. 
 7. Eclipse
 
-Você encontrará as versões compatíveis com a versão do produto que você irá utilizar, no manual de instalação do Fusion. Acesse nosso [portal](https://www.neomind.com.br/fusion/), entre no GED e acesse Materiais do Fusion > Documentação. Escolha a versão, de preferência a mais recente, e verifique as configurações na seção Servidor Windows conforme print a baixo.  
+Você encontrará as versões compatíveis com a versão do produto que você irá utilizar, no manual de instalação do Fusion. Acesse nosso portal, entre no GED e acesse Materiais do Fusion > Documentação. Escolha a versão, de preferência a mais recente, e verifique as configurações na seção Servidor Windows conforme print a baixo.  
 
-![Versões]./images/versoesJDKeTomcat.png)
+![Versões](./images/versoesJDKeTomcat.png)
 
 O manual de instalação está voltado para aplicações que executam com serviço. Iremos configurar nesse manual, a aplicação para executar dentro de uma IDE de desenvolvimento. O manual não contempla a instalação do maven, que se faz necessário apenas em ambiente de desenvolvimento.
 
 #Apache Maven
 
-Faça download da última versão do apache maven no [link](https://maven.apache.org/download.cgi) e finalize a instalação. 
+Faça download da última versão do apache maven no link e finalize a instalação. 
 
 #Eclipse
 
 Feito todas as instalações citadas acima, vamos instalar a IDE de desenvolvimento. 
 
-Conforme a equipe de [Inovação](/docs/development/eclipse/eclipse/): Versões acima da 2018-12 (4.10.0) não estão funcionais por conta da modularização do Java e não devem ser utilizadas.
+Conforme a equipe de Inovação: Versões acima da 2018-12 (4.10.0) não estão funcionais por conta da modularização do Java e não devem ser utilizadas.
 
 Faça download da IDE de inicie. 
 
@@ -79,7 +79,7 @@ Desabilitar *Refresh using native hooks or polling* para evitar o consumo de rec
 
 ![uncheck-refresh](./images/uncheck-refresh.png)
 
-Ainda em preferences, configure o estilo de formatação da neomind. em Java > Code Style > Formatter adicione o [arquivo](/docs/development/eclipse/neomind-java-conventions.xml).
+Ainda em preferences, configure o estilo de formatação da neomind. em Java > Code Style > Formatter adicione o arquivo.
 
 ![formatter](./images/formatter.png)
 
